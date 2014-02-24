@@ -6,17 +6,19 @@
 		
 		<title>Alex Koller</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
-		<link rel="shortcut icon" href="mybrowsericon">
+		<link rel="shortcut icon" href="assets/images/tab-icon.ico">
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
 	</head>
 
 	<body>
 
-		<nav class="navbar navbar-default" role="navigation">
+		<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -30,41 +32,153 @@
 
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link 2</a></li>
+						<li><a href="#skills">Skills</a><li>
+						<li><a href="#projects">Projects</a></li>
 					</ul>	
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="assets/images/case-router.png">Resume</a></li>
+					</ul>
 				</div>
 
 			</div>
 		</nav>
 
-		<div class="container">
+		<section id="about-me">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div id="photo-self"></div>
+						<h1>Alex Koller</h1>
+					</div>
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4">
+					</div>
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</section>
 
+    <section id="skills">
+      <div class="container">
+					
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="page-header">My Skills
+							<small></small>
+						</h1>
+					</div>
+				</div>
+
+				<div class="box first">
+					<div class="row">
+
+        	  <div class="col-md-4 col-sm-6">
+							<div class="center">
+								<i class="fa fa-apple"></i>
+                <h4>iOS development</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+              </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6">
+              <div class="center">
+                <i class="fa fa-html5"></i>
+                <h4>Ruby on Rails development</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+              </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6">
+              <div class="center">
+                <i class="fa fa-html5"></i>
+                <h4>Ruby on Rails development</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+              </div>
+            </div><!--/.col-md-4-->
+
+          </div><!--/.row-->
+        </div><!--/.box-->
+
+       </div><!--/.container-->
+    </section><!--/#services-->
+
+		<section id="projects">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="page-header">My Projects
+							<small>Showcase my work!</small>
+						</h1>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-7 col-md-7">
+						<a href="#">
+							<img class="img-responsive" src="assets/images/case-router.png">
+						</a>
+					</div>
+
+					<div class="col-lg-5 col-md-5">
+						<h3>Case Router</h3>
+						<h4>Universial iOS Application<h4>
+						<p>Case Router is a universial iOS application built for government organizations using the salesforce platform</p>
+						<a class="btn btn-primary" href="https://itunes.apple.com/us/app/case-router/id728099755">View in App Store <span class="glyphicon glyphicon-chevron-right"></span></a>
+					</div>
+				</div>
+
+				<hr>
+
+				<div class="row">
+					<div class="col-lg-7 col-md-7">
+						<a href="#">
+							<img class="img-responsive" src="assets/images/case-router.png">
+						</a>
+					</div>
+
+					<div class="col-lg-5 col-md-5">
+						<h3>Elgin 311</h3>
+						<h4>Universial iOS Application<h4>
+						<p>Case Router is a universial iOS application built for government organizations using the salesforce platform</p>
+					</div>
+				</div>
+
+				<hr>
+
+				<div class="row">
+					<div class="col-lg-7 col-md-7">
+						<a href="#">
+							<img class="img-responsive" src="assets/images/soccer-guy.png">
+						</a>
+					</div>
+
+					<div class="col-lg-5 col-md-5">
+						<h3>Sports Stuff</h3>
+						<h4>Ruby on Rails App<h4>
+						<p>Case Router is a universial iOS application built for government organizations using the salesforce platform</p>
+						<a class="btn btn-success" href="http://ancient-ravine-1089.herokuapp.com/">
+							Visit Site <span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+						<a class="btn btn-success" href="https://github.com/koller1/duckling-spice" target="_blank">
+							See on Github <span class="glyphicon glyphicon-list-alt"></span>
+						</a>
+					</div>
+				</div>
+
+				<hr>
+
+			</div> <!-- .container -->
+		</section> <!-- #projects -->
+
+		<footer>
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="page-header">Alex Koller
-						<small>Showcase my work!</small><i class="fa fa-github-alt"></i>
-					</h1>
+					<p>Copyright &copy; Alex Koller 2014</p>
 				</div>
 			</div>
-			
-			<div class="row">
-				<div class="col-lg-7 col-md-7">
-					<a href="#">
-						<img class="img-responsive" src="assets/images/caseRouter.png">
-					</a>
-				</div>
-
-				<div class="col-lg-5 col-md-5">
-					<h3>Project One</h3>
-					<h4>Subheading<h4>
-					<p>This is my project</p>
-					<a class="btn btn-primary" href="#">View Porject <span class="glyphicon glyphicon-chevron-right"></span></a>
-					<a href="assets/images/caseRouter.jpeg" download>Download</a>
-				</div>
-			</div>
-
-		</div>
+		</footer>
 
 	</body>
 </html>

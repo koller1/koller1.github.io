@@ -1,0 +1,54 @@
+#about-me {
+	background-color: #000000;
+	background-image: url(../images/blurred-background.jpg);
+	background-size: cover;
+	padding: 120px 0px;
+
+	text-align: center;
+	color: white;
+}
+
+#photo-self {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	background-image: url(../images/self-photo.jpg);
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	border: 3px solid white;
+}
+
+#skills {
+	padding-top: 10px;	
+}
+
+.center {
+	text-align: center;
+}
+
+.span-icon {
+	vertical-align: middle;
+}
+
+.center>.fa {
+	font-size: 24px;
+	height: 68px;
+	width: 68px;
+	line-height: 68px;
+	color: #fff;
+	border-radius: 100%;
+}
+
+.fa-apple {
+	background-color: #e74c3c;
+}
+
+.fa-html5 {
+	background-color: #8e44ad;
+}
+
+footer {
+	text-align: center;
+}
