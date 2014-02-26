@@ -1,3 +1,19 @@
+/* Navbar offset
+body {
+	margin-top: 60px;
+}
+*/
+
+/* Nav Bar 
+.navbar-default {
+	background-color: blue;
+	border-color: black;
+	font-size: 16px;
+	
+}
+*/
+
+/* About Me */
 #about-me {
 	background-color: #000000;
 	background-image: url(../images/blurred-background.jpg);
@@ -5,7 +21,11 @@
 	padding: 120px 0px;
 
 	text-align: center;
-	color: white;
+	color: white; 
+}
+
+#bio {
+	font-size: 16px;
 }
 
 #photo-self {
@@ -20,6 +40,7 @@
 	border: 3px solid white;
 }
 
+/* Skills */
 #skills {
 	padding-top: 10px;	
 }
@@ -49,6 +70,16 @@
 	background-color: #8e44ad;
 }
 
+/* Projects */
+#projects p {
+	font-size: 16px;
+}
+.version {
+	font-size: 16px;
+	color: #909090;
+}
+
+/* Footer */
 footer {
 	text-align: center;
 }
