@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	// Smooth Scroll
-	$('.navbar-nav > li').click(function(event) {
+	$('.nav-scroll > li').click(function(event) {
 		event.preventDefault();
 		var target = $(this).find('>a').prop('hash');
 		$('html, body').animate({
