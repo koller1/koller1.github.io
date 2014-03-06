@@ -18,14 +18,12 @@ body {
 	background-color: #000000;
 	background-image: url(../images/blurred-background.jpg);
 	background-size: cover;
-	padding: 120px 0px;
-
-	text-align: center;
+	padding: 100px 0px 80px;
 	color: white; 
 }
 
 #bio {
-	font-size: 16px;
+	font-size: 17px;
 }
 
 #photo-self {
@@ -40,9 +38,24 @@ body {
 	border: 3px solid white;
 }
 
+.social .fa {
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	border-radius: 100%;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.social a {
+	color: white;
+	font-size: 18px;
+}
+
 /* Skills */
-#skills {
-	padding-top: 10px;	
+#skills { padding-top: 10px;	
 }
 
 .center {
@@ -67,7 +80,23 @@ body {
 }
 
 .fa-html5 {
-	background-color: #8e44ad;
+	background-color: #FF3A3A;
+}
+
+.fa-desktop {
+	background-color: #58D3F7;
+}
+
+.fa-github-alt {
+	font-size: 22px;
+	background-color:#d8d8d8;
+	color:#000000;
+}
+
+.fa-linkedin {
+	font-size: 20px;
+	background-color: #21a6d8; 
+	color:#fff;
 }
 
 /* Projects */
