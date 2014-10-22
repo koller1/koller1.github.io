@@ -1,0 +1,40 @@
+body {
+  padding: 10px;
+}
+
+#address {
+	width: 400px;
+}
+
+#address, button {
+	height: 28px;
+}
+
+#map-canvas {
+	width: 980px;
+	height: 600px;
+}
+
+#data {
+	margin: 10px 0;
+	vertical-align: top;
+}
+
+#data > * {
+	display: inline-block;
+}
+
+#top-ten {
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+#top-ten li {
+	font-size: 20px;
+}
+
+#infoWindowContent p {
+	font-size: 14px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}

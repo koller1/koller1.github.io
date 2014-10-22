@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Earthquake Finder</title>
+		
+		<link rel="stylesheet" href="earthquakes.css">
+		
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXC0YSji7-qgQoaE1cziJT44fjLKjrVR8"></script>
+		<script type="text/javascript" src="earthquakes.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<h1>Earthquake Finder</h1>
+			
+			<input id="address" type="text" placeholder="Search earthquakes by location" onkeydown="if (event.keyCode == 13) document.getElementById('searchBtn').click()"/>
+			<button id="searchBtn" type="button" onclick="findBounds()">Search</button>
+			
+			<div id="data">
+				<div id="map-canvas"></div>
+				<div id="top-ten">
+					<h2 style="margin-bottom:0;">Top Ten Earthquakes</h2>
+					<h4 style="margin-top:0; color:grey"><i>From past year</i></h4>
+					
+					<div id="top-ten-list">
+						Loading... <!-- Filled by JS findTopTen() -->
+					</div>
+				</div>
+			</div>
+			
+		</div> <!-- /#content -->
+	</body>
+</html>
